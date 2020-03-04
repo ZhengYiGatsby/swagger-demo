@@ -31,7 +31,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 //用于设置是否开启swagger
                 .enable(flag)
-                // 用于给swagger分组
+                // 用于给swagger分组，达到个人管个人接口的目的
                 .groupName("朱正义")
                 .select()
                 //RequestHandlerSelectors配置要扫描的接口的方式（basePackage-->按包扫描）
